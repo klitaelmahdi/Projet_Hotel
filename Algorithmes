@@ -1,0 +1,37 @@
+Algorithme classe Client: 
+
+Fonction PartieCasino()
+     casino = création du Casino
+     création d’une roulette
+     récupuration des gains et jetons du client
+     afficher une question proposant au client de jouer
+     scanner = création d’un scanner
+     rep = réponse du client
+     Tant que le client répond oui faire
+	un tour de roulette
+	proposition de rejouer
+     fin_tant que
+     affichage et mise à jour des gains et jetons du client
+
+Les autres fonctions fonctionnent à peu près de la même manière. On propose le service au client, s’il répond oui il fait l’activité. En revanche, on ne lui propose pas de refaire l’activité à part pour la fonction partie() car pour les autres fonctions on le fait dans la classe Hotel.
+
+
+Algorithme classe Hotel:
+
+Fonction Activité(){
+     c = tableau de 40 clients (construit réellement ou par défaut)
+     pour i allant de 1 à 40, faire
+          Si le client n’est pas un client par défaut et le client est présent alors
+               sc = création d’un scanner
+               afficher une question pour proposer au client l’activité
+               r               Tant que le client veut faire l’activité faire
+                    Appel de la fonction pour faireActivité()
+               fin_tant que
+           fin_si
+       fin_pour
+
+Remarques : 
+Activité() généralise les fonctions vu au dessus car elles fonctionnent de la même façon.
+faireActivité() correspond aux fonctions se trouvant dans la classe Client (partie() pour jouer au casino par exemple).
+Nous vérifions que le client est présent afin de ne pas proposer une activité à un client parti en croisière.
+La fonction Casino() n’a pas de while mais un if car il y a déjà un while dans la fonction partie() de la classe Client.

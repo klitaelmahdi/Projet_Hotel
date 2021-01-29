@@ -1,0 +1,24 @@
+# Projet
+Projet d'hôtel codé sous java
+Mise en marche du programme:
+Après avoir fait "extraire ici" sur l'archive ouvrez un terminal et rendez vous dans le dossier ou se situe l'archive.
+Tapez ensuite les commandes suivantes:
+-cd MalteseDenis/src
+-javac Projet/core/*.java Projet/options/*.java Projet/Test.java
+-java Projet.Test
+
+Le programme se lance alors.
+Précisions sur l'utilisation du programme:
+on répond aux questions fermées par "o" ou "n".Si la question n'est pas fermée mais qu'il y a des indications, il faut les suivre.Si l'on ne se trouve dans aucun  des deux cas alors la réponse est libre.
+Lorsque l'on nous demande une valeur numérique, la réponse se fait uniquement sous forme d'entier sinon le programme crash et s'arrête définitivement.
+
+Autres éléments:
+-la documentation générée par Doxygen est disponible si l'on double-clique sur MalteseDenis/Doxygen/annotated.html juste à côté du dossier search lorsque l'on ouvre le dossier Doxygen.
+
+-le rapport est consultable via MalteseDenis/Rapport.odt 
+
+-Le Diagramme de l'architecture du programme est consultable via MalteseDenis/Diagramme.png.Remarque:Les getters et setters des différentes classes n'y sont pas présents car ils prenaient trop de place.
+
+-On peut consulter deux exemples d'algorithmes dans le fichier MalteseDenis/Algorithmes
+
+
